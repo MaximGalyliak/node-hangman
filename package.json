@@ -1,0 +1,22 @@
+{
+  "name": "word-game",
+  "version": "1.0.0",
+  "description": "node.js app",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximGalyliak/node-hangman.git"
+  },
+  "author": "M.G.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximGalyliak/node-hangman/issues"
+  },
+  "homepage": "https://github.com/MaximGalyliak/node-hangman#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
