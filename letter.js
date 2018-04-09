@@ -5,8 +5,7 @@ class Letter {
     }
     checkLetter(arg){
         if(arg === this.letter){
-            this.isLetterGuessed = true;
-            return true;
+            return  this.isLetterGuessed = true;  
         }
     }
     toString(){

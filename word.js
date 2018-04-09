@@ -34,7 +34,7 @@ class Word {
                 inWord = true;
             };
         });
-        if (inWord) { return true; } else { return false; };
+        return inWord;
     }
 }
 module.exports = Word;

@@ -17,6 +17,7 @@ function gameLoop() {
 }
 
 function gameRound(word) {
+    word.printWord();
     Prompt.get([{
         name: 'guess',
         required: true,
@@ -30,7 +31,6 @@ function gameRound(word) {
             tries--;
             console.log('INCORECT!');
         };
-        word.printWord();
         console.log('TRIES:', tries);
         if (tries > 0) {
             word.checkIfGuessed();
